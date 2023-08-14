@@ -21,6 +21,8 @@ const azureEnvVars = [
   "NEXTAUTH_URL",
   "AZURE_DOCUMENT_INTELLIGENCE_ENDPOINT",
   "AZURE_DOCUMENT_INTELLIGENCE_KEY",
+  "GOOGLE_CLIENT_ID",
+  "GOOGLE_CLIENT_SECRET",
 ] as const;
 
 type RequiredServerEnvKeys = (typeof azureEnvVars)[number];
